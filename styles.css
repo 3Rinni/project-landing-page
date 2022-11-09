@@ -1,0 +1,150 @@
+.body {
+    display: flex;
+    flex: 1;
+
+}
+
+    .header {
+    background-color: #1F2937;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+  
+   
+    }
+        .top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .logo {
+                font-size: 16px;
+                font-weight: bold;
+            }
+            a {
+                color: #E5E7EB;
+                text-decoration: none;
+            }
+            ul {
+                list-style: none;
+            }
+        .top-mid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 36px;
+            
+        
+        }
+           .who-gon-stop-me {
+            display:flex;
+            flex-direction: column;
+            margin: 0px;
+            margin-right: 52px;
+            align-items: flex-start;
+            
+           }
+                .main-text {
+                    font-size: 48px;
+                    font-weight: extra-bold;
+                    color: #F9FAF8; 
+                    width:300px
+                }
+                .info {
+                color: #E5E7EB;
+                width: 400px;
+                }
+                button {
+                    color: white;
+                    background-color: #3882F6;
+                }
+            .image-box {
+                width: 300px;
+                height: 150px;
+                background-color: grey;
+                flex-shrink: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+
+
+    .content {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    
+        h2 {
+        color:#1F2937;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+       .one-mo-gain {
+        display: flex;
+        column-gap: 32px;
+       
+       }
+        .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        }
+
+        .box { 
+            background-color: #1F2937;
+            border: #3882F6;
+            width: 100px;
+            height: 100px;
+            flex-shrink: 0;
+            margin: 8px;
+        }
+
+        .text {
+            color: grey;
+            display: flex;
+            flex-grow: 0;
+            width: 100px;
+        }
+
+        .quote {
+        background-color: #E5E7EB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 36px;
+        width: 550px;
+        }
+
+        .advert {
+        background-color: #3882F6;
+        color:#E5E7EB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        }
+
+
+
+
+    .footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
